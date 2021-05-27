@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body {
+    font-family: 'Lobster', cursive;
+
+}
+nav{
+    width: 100%;
+    height: 8vh;
+    background-color:rgb(153, 30, 30);
+    position: sticky;
+    color: white;
+    top: 0;
+    left:0;
+}
+.logo{
+    font-size: 45px;
+    padding: 0px 30px;
+    width: 30%;
+    float: left;
+}
+.logo:hover{
+    color:black;
+}
+nav ul{
+    float:right;
+    margin-right: 69px;
+    padding: 7px;
+}
+nav.navbar {
+    box-shadow: 5px 10px 8px #888888;
+    width: 100%;
+}
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 30px;
+    height: inherit;
+    /* padding: 2px; */
+    font-size: 21px;
+    line-height: 2;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+ li:hover {
+    color:black;
+}
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+div.nav-elements {
+    width: 60%;
+    margin: 0px;
+    float: right;
+    /* align-content: center; */
+    height: inherit;
+}
+/**************************first page section*********************************************************************************/
+section#first-page1{
+    background: url('backgroundimg.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+section.page-content {
+    height: 100vh;
+}
+#first-page1 p {
+    font-size: 49px;
+    padding-left: 55px;
+    padding-top: 193px;
+}
+h3 {
+    margin-left: 396px;
+    font-size: 50px;
+}
+h1 {
+    color: rgb(29, 28, 27);
+    font-size: 60px;
+    font-weight: 100;
+    padding-left: 194px;
+}
+h1:hover{
+    color:crimson;
+
+}
+span {
+    color: red;
+}
+span:hover {
+    color: rgb(90, 33, 7);
+}
+/***********************second page*******************/
+/**.second-page p {
+    color: black;
+    padding-top: 15px;
+    padding-left: 213px;
+    font-size: 33px;
+}
+span {
+    content: "\2192";
+  }
+h2 {
+    padding-top: 60px;
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(148 51 13);
+    padding-left: 500px;
+}
+h5 {
+    font-size: 35px;
+    padding-left: 266px;
+    text-decoration: underline;
+    color: rgb(148 51 13);
+}
+section#second-page2 p {
+    padding-left: 326px;
+    font-size: 22px;
+    padding-top: 22px;
+    padding-bottom: 30px;
+    color: rgb(7, 6, 6);
+}**/
+section#second-page2{
+    background: url('penimg.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+.wrapper {
+    padding-top: 91px;
+    padding-left: 90px;
+}
+.dot.one {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 16px;
+    background-color: white;
+}
+.progress-bar.first {
+    height: 20vh;
+    width: 4px;
+    margin-left: 15px;
+    background-color: #14599d;
+}
+.dot.two {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 16px;
+    background-color: white;
+}
+.progress-bar.second {
+    height: 20vh;
+    width: 4px;
+    margin-left: 15px;
+    background-color: #14599d;
+}
+.dot.three {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 16px;
+    background-color: white;
+}
+.progress-bar.third {
+    height: 20vh;
+    width: 4px;
+    margin-left: 15px;
+    background-color: #14599d;
+}
+.dot.four {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 16px;
+    background-color: white;
+}
+.heading {
+    font-size: 34px;
+    margin-left: 9px;
+    padding-bottom: 10px;
+}
+.margin-area {
+    float: left;
+}
+.left-div {
+    float: right;
+    width: 89%;
+    height: 73vh;
+    padding-left: 23px;
+}
+.content1 {
+    /* width: 181px; */
+    height: 174px;
+}
+.content2 {
+    /* width: 181px; */
+    height: 174px;
+}
+.content3 {
+    /* width: 181px; */
+    height: 174px;
+}
+h5 {
+    font-size: 22px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+div h8 {
+    font-style: italic;
+    background-color: #e4dfe9;
+}
+/****************third-page***************/
+.third-page p{
+    color: black;
+    padding-top: 59px;
+}
+h4 {
+    margin-left: 100px;
+    font-size: 39px;
+    text-decoration: underline;
+    color: rgb(148 51 13);
+}
+h9 {
+    float: right;
+    margin-right: 10px;
+}
+.fig {
+    padding-top: 39px;
+    font-size: 30px;
+    padding-left: 13px;
+    width: 160px;
+    float: left;
+}
+.fig2 {
+    float: right;
+    font-size: 31px;
+    padding-top: 42px;
+}
+    
+
+/****************third-page***************/
+section#third-page h2 {
+    padding-left: 422px;
+    color: black;
+    font-size: 45px;
+}
+.left-column {
+    width: 60%;
+    float: left;
+    height: 85vh;
+}
+.left-column p {
+    font-size: 20px;
+    padding-top: 96px;
+    padding-left: 85px;
+}
+.right-column {
+    width: 40%;
+    float: right;
+    height: 85vh;
+}
+.right-column {
+    width: 40%;
+    float: right;
+    height: 85vh;
+    padding-top: 58px;
+    padding-left: 44px;
+    padding-right: 27px;
+}
+div p {
+    font-size: 20px;
+    padding-left: 0px;
+    padding-top: 20px;
+}
+.right-column h6 {
+    font-size: 30px;
+    font-weight: 100;
+}
+.right-column li {
+    padding-top: 9px;
+}
+li span {
+    width: 100%;
+    display: block;
+    border: 2px solid black;
+    height: 18px;
+    border-radius: 10px;
+}
+span div {
+    height: 100%;
+    background: rgb(146, 219, 219);
+    width: 90%;
+}
+.styl div {
+    height: 100%;
+    background:rgb(146, 219, 219);
+    width: 80%;
+}
+/****************fourth-page***************/
+.right-side {
+    width: 50%;
+    height: 100vh;
+    float: left;
+    padding-top: 80px;
+}
+.left-side {
+    width: 50%;
+    float: right;
+    height: 100vh;
+}
+h7 {
+    font-size: 29px;
+    text-decoration: underline;
+    padding-left: 65px;
+}
+h2 {
+    padding-top: 60px;
+    font-size: 43px;
+    text-decoration: underline;
+    color: rgb(148 51 13);
+    padding-left: 390px;
+}
+.left-side h1 {
+    color: rgb(29, 28, 27);
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 58px;
+    text-decoration: underline;
+    padding-top: 77px;
+}
+.form-area {
+    padding-top: 40px;
+    padding-left: 60px;
+}
+.name-form input[type="text"] {
+    font-size: 16px;
+    float: left;
+    border-radius: 5px;
+}
+.mail-form input[type="mail"] {
+    /* padding-left: 0px; */
+    margin-left: 18px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.subject-form input[type="text"] {
+    width: 416px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    height: 24px;
+    border-radius: 5px;
+}
+.des-form input[type="text"] {
+    width: 416px;
+    /* height: 23px; */
+    padding-bottom: 61px;
+    border-radius: 5px;
+}
+button {
+    margin-top: 18px;
+    background-color: #b31f3b;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+p.last {
+    padding-left: 65px;
+    padding-top: 33px;
+}
+.icon {
+    padding-top: 42px;
+    padding-left: 11px;
+}
+.icon li {
+    padding-top: 16px;
+}
+.icon  h1 {
+    font-size: 27px;
+    padding-left: 107px;
+}
+.icon p {
+    padding-left: 107px;
+    padding-top: 0px;
+    font-weight: 100;
+    color: #645e5e;
+}
+/************font icons*******/
+.ml div {
+    font-size: 43px;
+    float: left;
+    padding-left: 51px;
+    padding-top: 4px;
+    padding-right: 35px;
+}
+.nm div {
+    font-size: 43px;
+    float: left;
+    padding-left: 51px;
+    padding-top: 4px;
+    padding-right: 35px;
+}
+.add div {
+    font-size: 43px;
+    float: left;
+    padding-left: 51px;
+    padding-top: 4px;
+    padding-right: 35px;
+}
